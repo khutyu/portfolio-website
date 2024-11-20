@@ -1,0 +1,50 @@
+body {
+    background-color:rgb(58, 58, 58);
+    justify-content: space-between; /* Distributes the columns evenly */
+    padding: 1%; 
+    color:rgb(180, 176, 176);
+    margin: auto;
+    flex:1;
+}
+
+#pic-name img {
+    border-radius: 50%;
+    height:30%;
+    width:30%;
+    object-fit: cover;
+     margin-left: 5%;
+}
+
+section {
+    padding: 1%; 
+    text-align: center;
+}
+
+nav {
+    flex:none;
+    text-align:start;
+    width: 100%;
+    margin-bottom: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    box-shadow: 0 2% 5% rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    box-shadow: black;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 90%;
+    color:white;
+    padding-left: 10%;
+}
+
+nav a.active{
+    color:rgb(0, 0, 0);
+}
+
+section#about ul li{
+    list-style:none;
+}
